@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/personal',
   siteMetadata: {
     title: `Sean Gibbens Development`,
     description:
