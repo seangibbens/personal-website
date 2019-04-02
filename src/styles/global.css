@@ -17,13 +17,13 @@ section {
 }
 h1 {
   position: absolute;
-  top: 30%;
+  top: 25%;
   transform: translateY(-50%);
   text-align: center;
   color: black;
   width: 100%;
   left: 0;
-  font-size: calc(1rem + 2vw);
+  font-size: 40px;
 }
 p {
   position: absolute;
@@ -33,11 +33,11 @@ p {
   color: black;
   width: 100%;
   left: 0;
-  font-size: calc(0.1rem + 2vw);
+  font-size: 40px;
 }
 .links {
   position: absolute;
-  top: 55%;
+  top: 60%;
   transform: translateY(-50%);
   text-align: center;
   width: 100%;
@@ -49,4 +49,14 @@ p {
 }
 .links a:hover {
   color: red;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    top: 50%;
+    font-size: 25px;
+  }
+  .links {
+    top: 75%;
+  }
 }
